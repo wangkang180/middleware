@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <DataSet xmlns="http://WebXml.com.cn/">
+       <xs:schema id="Airlines" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+         <xs:element name="Airlines" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+           <xs:complexType>
+             <xs:choice minOccurs="0" maxOccurs="unbounded">
+               <xs:element name="AirlinesTime">
+                <xs:complexType>
+                  <xs:sequence>
+                      <xs:element name="FlightCode" type="xs:string" minOccurs="0" />
+                      <xs:element name="Company" type="xs:string" minOccurs="0" />
+                      <xs:element name="LeaveAirport" type="xs:string" minOccurs="0" />
+                      <xs:element name="ArriveAirport" type="xs:string" minOccurs="0" />
+                      <xs:element name="LeaveTime" type="xs:string" minOccurs="0" />
+                      <xs:element name="ArriveTime" type="xs:string" minOccurs="0" />
+                      <xs:element name="Mode" type="xs:string" minOccurs="0" />
+               </xs:sequence>
+             </xs:complexType>
+           </xs:element>
+         </xs:choice>
+       </xs:complexType>
+     </xs:element>
+   </xs:schema>
+   <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+     <Airlines xmlns="">
+       <AirlinesTime diffgr:id="AirlinesTime1" msdata:rowOrder="0">
+         <Company>深圳航空</Company>
+         <FlightCode>ZH1858</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>07:55</LeaveTime>
+         <ArriveTime>10:10</ArriveTime>
+         <Mode>330</Mode>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime2" msdata:rowOrder="1">
+         <Company>中国国航</Company>
+         <FlightCode>CA1858</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>07:55</LeaveTime>
+         <ArriveTime>10:10</ArriveTime>
+         <Mode>330</Mode>
+         <AirlineStop>0</AirlineStop>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime3" msdata:rowOrder="2">
+         <Company>海南航空</Company>
+         <FlightCode>HU7604</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>08:25</LeaveTime>
+         <ArriveTime>10:50</ArriveTime>
+         <Mode>738</Mode>
+         <AirlineStop>0</AirlineStop>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime4" msdata:rowOrder="3">
+         <Company>东方航空</Company>
+         <FlightCode>MU5145</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>08:30</LeaveTime>
+         <ArriveTime>10:40</ArriveTime>
+         <Mode>76A</Mode>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime5" msdata:rowOrder="4">
+         <Company>南方航空</Company>
+         <FlightCode>CZ9920</FlightCode>
+         <LeaveAirport>北京首都国际机场</LeaveAirport>
+         <ArriveAirport>上海虹桥国际机场</ArriveAirport>
+         <LeaveTime>08:30</LeaveTime>
+         <ArriveTime>10:40</ArriveTime>
+         <Mode>76A</Mode>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime6" msdata:rowOrder="5">
+         <Company>深圳航空</Company>
+         <FlightCode>ZH1590</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>08:55</LeaveTime>
+         <ArriveTime>11:15</ArriveTime>
+         <Mode>330</Mode>
+       </AirlinesTime>
+       <AirlinesTime diffgr:id="AirlinesTime7" msdata:rowOrder="6">
+         <Company>中国国航</Company>
+         <FlightCode>CA1590</FlightCode>
+         <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+         <ArriveAirport>北京首都国际机场</ArriveAirport>
+         <LeaveTime>08:55</LeaveTime>
+          <ArriveTime>11:15</ArriveTime>
+          <Mode>330</Mode>
+        </AirlinesTime>
+        <AirlinesTime diffgr:id="AirlinesTime8" msdata:rowOrder="7">
+          <Company>东方航空</Company>
+          <FlightCode>MU5103</FlightCode>
+          <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+          <ArriveAirport>北京首都国际机场</ArriveAirport>
+          <LeaveTime>09:00</LeaveTime>
+          <ArriveTime>11:20</ArriveTime>
+          <Mode>333</Mode>
+        </AirlinesTime>
+        <AirlinesTime diffgr:id="AirlinesTime9" msdata:rowOrder="8">
+          <Company>南方航空</Company>
+          <FlightCode>CZ9890</FlightCode>
+          <LeaveAirport>上海虹桥国际机场</LeaveAirport>
+          <ArriveAirport>北京首都国际机场</ArriveAirport>
+          <LeaveTime>09:00</LeaveTime>
+          <ArriveTime>11:20</ArriveTime>
+          <Mode>333</Mode>
+        </AirlinesTime>
+         <AirlinesTime diffgr:id="AirlinesTime9" msdata:rowOrder="8">
+             <Company>南方航空</Company>
+             <FlightCode>CZ9890</FlightCode>
+             <LeaveAirport>北京首都国际机场</LeaveAirport>
+             <ArriveAirport>上海虹桥国际机场</ArriveAirport>
+             <LeaveTime>09:00</LeaveTime>
+             <ArriveTime>9:20</ArriveTime>
+             <Mode>333</Mode>
+         </AirlinesTime>
+       </Airlines>
+    </diffgr:diffgram>
+</DataSet>

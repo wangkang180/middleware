@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DataSet xmlns="http://WebXml.com.cn/">
+    <xs:schema id="Airlines" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <xs:element name="Airlines" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+            <xs:complexType>
+                <xs:choice minOccurs="0" maxOccurs="unbounded">
+                    <xs:element name="AirlinesTime">
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element name="Company" type="xs:string" minOccurs="0" />
+                                <xs:element name="AirlineCode" type="xs:string" minOccurs="0" />
+                                <xs:element name="StartDrome" type="xs:string" minOccurs="0" />
+                                <xs:element name="ArriveDrome" type="xs:string" minOccurs="0" />
+                                <xs:element name="StartTime" type="xs:string" minOccurs="0" />
+                                <xs:element name="ArriveTime" type="xs:string" minOccurs="0" />
+                                <xs:element name="Mode" type="xs:string" minOccurs="0" />
+                                <xs:element name="AirlineStop" type="xs:string" minOccurs="0" />
+                                <xs:element name="Week" type="xs:string" minOccurs="0" />
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:choice>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <diffgr:diffgram xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:diffgr="urn:schemas-microsoft-com:xml-diffgram-v1">
+        <Airlines xmlns="">
+            <AirlinesTime diffgr:id="AirlinesTime1" msdata:rowOrder="0">
+                <Company>深圳航空</Company>
+                <AirlineCode>ZH1858</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>07:55</StartTime>
+                <ArriveTime>10:10</ArriveTime>
+                <Mode>330</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime2" msdata:rowOrder="1">
+                <Company>中国国航</Company>
+                <AirlineCode>CA1858</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>07:55</StartTime>
+                <ArriveTime>10:10</ArriveTime>
+                <Mode>330</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime3" msdata:rowOrder="2">
+                <Company>海南航空</Company>
+                <AirlineCode>HU7604</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>08:25</StartTime>
+                <ArriveTime>10:50</ArriveTime>
+                <Mode>738</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>13456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime4" msdata:rowOrder="3">
+                <Company>东方航空</Company>
+                <AirlineCode>MU5145</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>08:30</StartTime>
+                <ArriveTime>10:40</ArriveTime>
+                <Mode>76A</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>123456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime5" msdata:rowOrder="4">
+                <Company>南方航空</Company>
+                <AirlineCode>CZ9920</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>08:30</StartTime>
+                <ArriveTime>10:40</ArriveTime>
+                <Mode>76A</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>123456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime6" msdata:rowOrder="5">
+                <Company>深圳航空</Company>
+                <AirlineCode>ZH1590</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>08:55</StartTime>
+                <ArriveTime>11:15</ArriveTime>
+                <Mode>330</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>13456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime7" msdata:rowOrder="6">
+                <Company>中国国航</Company>
+                <AirlineCode>CA1590</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>08:55</StartTime>
+                <ArriveTime>11:15</ArriveTime>
+                <Mode>330</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>13456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime8" msdata:rowOrder="7">
+                <Company>东方航空</Company>
+                <AirlineCode>MU5103</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>09:00</StartTime>
+                <ArriveTime>11:20</ArriveTime>
+                <Mode>333</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>123456日</Week>
+            </AirlinesTime>
+            <AirlinesTime diffgr:id="AirlinesTime9" msdata:rowOrder="8">
+                <Company>南方航空</Company>
+                <AirlineCode>CZ9890</AirlineCode>
+                <StartDrome>上海虹桥国际机场</StartDrome>
+                <ArriveDrome>北京首都国际机场</ArriveDrome>
+                <StartTime>09:00</StartTime>
+                <ArriveTime>11:20</ArriveTime>
+                <Mode>333</Mode>
+                <AirlineStop>0</AirlineStop>
+                <Week>123456日</Week>
+            </AirlinesTime>
+        </Airlines>
+    </diffgr:diffgram>
+</DataSet>
